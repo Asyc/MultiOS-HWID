@@ -24,15 +24,11 @@ public class HWID {
         if(hwid.isEmpty()){
             throw new NullPointerException();
         }else{
-            return hash(hwid);
+            MessageDigest digest = MessageDigest.getInstance("MD5");
+            digest.update(hwid.getBytes());
+            byte[] bytes = digest.digest();
+            return DatatypeConverter.printHexBinary(bytes);
         }
-    }
-
-    private static String hash(String text) throws NoSuchAlgorithmException {
-        MessageDigest digest = MessageDigest.getInstance("MD5");
-        digest.update(text.getBytes());
-        byte[] bytes = digest.digest();
-        return DatatypeConverter.printHexBinary(bytes);
     }
 
     private static String runCommand(String command) throws IOException{
