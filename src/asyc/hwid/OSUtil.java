@@ -17,5 +17,5 @@ public class OSUtil {
     }
 }
 enum OS{
-    WINDOWS, MAC, UNIX, SOLARIS, UNKNOWN
+    WINDOWS, MAC, UNIX, UNKNOWN
 }
