@@ -11,8 +11,6 @@ public class OSUtil {
             return OS.MAC;
         }else if(osName.contains("nix") || osName.contains("nux") || osName.contains("aix")){
             return OS.UNIX;
-        }else if(osName.contains("sunos")){
-            return OS.SOLARIS;
         }else{
             return OS.UNKNOWN;
         }
