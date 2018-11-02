@@ -6,6 +6,9 @@ You can use this tool freely but some credit would be nice!
 
 # Operating Systems 
 Windows : Fully supported without the need of administrator privileges.
+
 OS X : Fully supported without the need of administrator privileges.
+
 Linux : Fully supported without the need of administrator privileges, but issues may occur without them.
+
 Solaris : Support removed, may come back in the future, but with the need of administrator/root privileges.
