@@ -12,3 +12,15 @@ OS X : Fully supported without the need of administrator privileges.
 Linux : Fully supported without the need of administrator privileges, but issues may occur without them.
 
 Solaris : Support removed, may come back in the future, but with the need of administrator/root privileges.
+
+# Usage Example
+```java
+  try {
+      String hwid = HWID.getHWID();
+  }catch (UnsupportedOSException | IOException | NoSuchAlgorithmException e){
+        e.printStackTrace();
+  }  
+}
+```
+
+It is recommended to store the result instead of calling ```HWID.getHWID()``` multiple times.
