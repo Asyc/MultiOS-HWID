@@ -16,11 +16,11 @@ Solaris : Support removed, may come back in the future, but with the need of adm
 # Usage Example
 ```java
   try {
-      String hwid = HWID.getHWID();
-  }catch (UnsupportedOSException | IOException | NoSuchAlgorithmException e){
-        e.printStackTrace();
-  }  
-}
+   String hwid = HWID.getHWID();
+  } catch (UnsupportedOSException | IOException | NoSuchAlgorithmException e) {
+   e.printStackTrace();
+  }
+  }
 ```
 
 It is recommended to store the result instead of calling ```HWID.getHWID()``` multiple times.
