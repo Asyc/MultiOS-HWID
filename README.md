@@ -1,4 +1,4 @@
-# MultiOS-HWID
+# MultiOS-HWID [![Maven Central](https://maven-badges.herokuapp.com/maven-central/me.asycc/MultiOS-HWID/1.1.1/badge.svg)](https://search.maven.org/artifact/me.asycc/MultiOS-HWID/1.1.1/jar)
 A hardware ID generator that is based off of getting data from hardware located in the computer. This tool is designed to work with multiple of the most famous operating systems such as Linux/OS X/Windows.
 
 # Use/License
